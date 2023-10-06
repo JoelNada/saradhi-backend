@@ -55,7 +55,7 @@ app.post("/addperson", (req, res) => {
     if (err) {
       res.status(500).json("Something went wrong", err);
     } else {
-      res.status(201).json("Saved Successfully");
+      res.status(201).json("Registered Successfully");
     }
   });
 });
